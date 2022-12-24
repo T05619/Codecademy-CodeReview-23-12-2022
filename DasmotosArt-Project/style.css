@@ -4,13 +4,6 @@
     font-family: Helvetica;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    margin: 0;
-    z-index: 1;
-}
-
 #Tiles {
     height: 160px;
     width: 100%;
@@ -27,11 +20,11 @@ h1 {
 
 main {
     position: relative;
-    top: 160px;
+    top: -120px;
 }
 
 #BrushH2 {
-    padding-bottom: 5px;
+    padding: 10px 0;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -39,7 +32,7 @@ main {
 }
 
 #FramesH2 {
-    padding-bottom: 5px;
+    padding: 10px 0;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -47,30 +40,11 @@ main {
 }
 
 #PaintH2 {
-    padding-bottom: 5px;
+    padding: 10px 0;
     font-size: 32px;
     font-weight: bold;
     color: white;
     background-color: skyblue;
-}
-
-#BrushesSection {
-    padding: 10px 0;
-    background-color: mediumspringgreen;
-    text-align: center;
-}
-
-#FramesSection {
-    padding: 10px 0;
-    background-color: lightcoral;
-    text-align: center;
-}
-
-#PaintsSection {
-    padding: 10px 0;
-    background-color: skyblue;
-    text-align: center;
-    padding-bottom: 40px;
 }
 
 strong {
