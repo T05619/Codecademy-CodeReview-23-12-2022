@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+#Tiles {
+    height: 160px;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    top: -150px;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    top: 160px;
+}
+
+#BrushH2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+#FramesH2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+}
+
+#PaintH2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+}
+
+#BrushesSection {
+    background-color: mediumspringgreen;
+    text-align: center;
+}
+
+#FramesSection {
+    background-color: lightcoral;
+    text-align: center;
+}
+
+#PaintsSection {
+    background-color: skyblue;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+strong {
+    font-weight: bold;
+    color: blue;
+}
