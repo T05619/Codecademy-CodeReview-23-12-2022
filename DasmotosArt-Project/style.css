@@ -31,6 +31,7 @@ main {
 }
 
 #BrushH2 {
+    padding-bottom: 5px;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -38,6 +39,7 @@ main {
 }
 
 #FramesH2 {
+    padding-bottom: 5px;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -45,6 +47,7 @@ main {
 }
 
 #PaintH2 {
+    padding-bottom: 5px;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -52,16 +55,19 @@ main {
 }
 
 #BrushesSection {
+    padding: 10px 0;
     background-color: mediumspringgreen;
     text-align: center;
 }
 
 #FramesSection {
+    padding: 10px 0;
     background-color: lightcoral;
     text-align: center;
 }
 
 #PaintsSection {
+    padding: 10px 0;
     background-color: skyblue;
     text-align: center;
     padding-bottom: 40px;
